@@ -31,5 +31,5 @@ public class Moviment : MonoBehaviour
         if(other.gameObject.CompareTag("PC") && Input.GetKey(KeyCode.Space)) {
             texto.enabled = true;
         }
-    }
+    }    
 }
